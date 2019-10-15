@@ -15,7 +15,7 @@ public class CaluculatorTest {
 		Caluculator caluculator=(Caluculator) factory.getProxy();
 		int sum=caluculator.add(10, 20);
 		System.out.println("Sum :"+sum);
-		
+		System.out.println("This is Git");;
 		
 	}
 }
